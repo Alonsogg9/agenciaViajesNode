@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            //- h1= pagina
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec eleifend tellus, a fringilla tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus augue nulla, tristique convallis pretium vitae, mattis sed mi. 
+
+                p Fusce eu lectus purus. Curabitur congue porttitor diam, nec ornare dui consectetur vitae. Fusce eu dui vitae justo vulputate fringilla non sed urna. Ut nunc lorem, cursus at leo in, fermentum commodo risus. Aenean euismod fringilla lectus, ac dignissim augue sodales id. Sed a erat massa. Nullam euismod purus ut metus imperdiet feugiat.
+
+                p Fusce dapibus ut arcu at ullamcorper. Mauris a varius quam, sit amet iaculis sem. Sed vitae dui nisl. Fusce nec dui malesuada, consequat sem et, luctus libero. Vivamus nisl orci, auctor sit amet ante sed, volutpat congue mauris. Quisque sed diam at erat condimentum congue vel in mi. Integer ullamcorper interdum sollicitudin.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Auctor sit amet ante sed, volutpat congue mauris. Quisque sed diam at erat condimentum congue vel in mi. Integer ullamcorper interdum sollicitudin.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Destinos 
+                    p Auctor sit amet ante sed, volutpat congue mauris. Quisque sed diam at erat condimentum congue vel in mi. Integer ullamcorper interdum sollicitudin.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Precios 
+                    p Auctor sit amet ante sed, volutpat congue mauris. Quisque sed diam at erat condimentum congue vel in mi. Integer ullamcorper interdum sollicitudin.
